@@ -4,6 +4,8 @@ import Cards from './components/Cards/Cards';
 
 import './App.css';
 import CSS from './components/Cards/images/CSSlogo.png'
+import JS from './components/Cards/images/JSlogo.png'
+import HTML from './components/Cards/images/HTMLsign.png'
 
 
 function App() {
@@ -13,9 +15,9 @@ function App() {
       <Hero></Hero>
       <h2>SKILLS</h2>
       <div className='skills' >
+        <Cards images={JS} alt={'JS icon'} title={'Javascript'} text={'Proficient experience in'}></Cards>
         <Cards images={CSS} alt={'css icon'} title={'CSS3'} text={'Expert Knowledge in'}></Cards>
-        <Cards images={CSS} alt={'css icon'} title={'CSS3'} text={'Expert Knowledge in'}></Cards>
-        <Cards images={CSS} alt={'css icon'} title={'CSS3'} text={'Expert Knowledge in'}></Cards>
+        <Cards images={HTML} alt={'HTML icon'} title={'HTML5'} text={'Knowledge in'}></Cards>
       </div>
 
     </div>
