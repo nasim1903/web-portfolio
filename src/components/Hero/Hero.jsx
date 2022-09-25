@@ -10,7 +10,7 @@ function Hero() {
                 <div>
                     <h3>HELLO I'M,</h3>
                     <h1>NASIM AHMED</h1>
-                    <h3>FRONT END DEVELOPER</h3>
+                    <h3>SOFTWARE DEVELOPER</h3>
                 </div>
             </div>
             <div className="img-section">

@@ -1,7 +1,8 @@
 import React from "react";
 
+import './Cards.css'
 
-function Cards({images}) {
+function Cards(images) {
     return (
         <>
             <h2>SKILLS</h2>
