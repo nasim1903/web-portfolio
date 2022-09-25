@@ -7,6 +7,7 @@ function Navbar() {
     
     const nav = document.querySelector('nav')
 
+    console.log(nav.style.backgroundColor)
 
     window.addEventListener('scroll', function () {
         if (window.scrollY > 100) {
