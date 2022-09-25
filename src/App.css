@@ -29,33 +29,12 @@ h3 {
 body, html{
   overflow-x: hidden;
   background-color: #f8f8f8;
-}* {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
-section {
-    display: flex;
-}
-
-h2 {
-    color: #6176dd;
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-h3 {
-    color: #6176dd;
-    font-size: 20px;
-}
-
-body, html{
-    overflow-x: hidden;
-    background-color: #f8f8f8;
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  overflow-x: scroll;
 }

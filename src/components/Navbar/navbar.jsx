@@ -11,7 +11,7 @@ function Navbar() {
     const changeBackground = () => {
         
         const nav = document.querySelector('nav')
-        if (window.scrollY > 100) {
+        if (window.scrollY >= 100) {
             setNavbar(true)
         } else {
             setNavbar(false)
