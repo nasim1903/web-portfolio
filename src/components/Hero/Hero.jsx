@@ -1,11 +1,11 @@
 import React from "react";
 
 import './hero.css'
+import blob from './blob.png'
 
 function Hero() {
     return (
         <section className="intro">
-            <img src="img/small blob.png" alt="" className="small-blob"></img>
             <div className="intro-text">
                 <div>
                     <h3>HELLO I'M,</h3>
@@ -14,7 +14,7 @@ function Hero() {
                 </div>
             </div>
             <div className="img-section">
-                <img src="img/blob.png" alt="blob" className="blob"></img>
+                <img src={blob} className="blob"></img>
             </div>
         </section>
     )
