@@ -23,9 +23,9 @@ function Navbar() {
     return (
         <nav className= {navbar ? 'active' : 'nav'}>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Contact</a></li>
-                <li><a>About me</a></li>
+                <li><button>Home</button></li>
+                <li><button>Contact</button></li>
+                <li><button>About me</button></li>
             </ul>
         </nav>
     )

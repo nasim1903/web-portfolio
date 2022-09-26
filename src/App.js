@@ -33,6 +33,7 @@ function App() {
         <Cards images={HTML} alt={'HTML icon'} title={'HTML5'} text={'Knowledge in'}></Cards>
         <Cards images={CSS} alt={'css icon'} title={'CSS3'} text={'Expert Knowledge in'}></Cards>
       </div>
+      
     </div>
   );
 }
