@@ -19,7 +19,9 @@ function App() {
       <Hero></Hero>
       <h2>SKILLS</h2>
       <div className='skills' >
+        <div className='start' >
         <Cards images={JS} alt={'JS icon'} title={'Javascript'} text={'Proficient experience in'}></Cards>
+        </div>
         <Cards images={Reactlogo} alt={'React icon'} title={'React'} text={'Creating Wrb Apps in'}></Cards>
         <Cards images={nodeIcon} alt={'Node JS icon'} title={'NodeJS'} text={'Practical experience creating Back Ends using'}></Cards>
         <Cards images={mongo} alt={'MongoDB icon'} title={'MongoDB'} text={'Experienced in creating NoSQL databases using'}></Cards>
