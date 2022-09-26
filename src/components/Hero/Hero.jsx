@@ -14,7 +14,7 @@ function Hero() {
                 </div>
             </div>
             <div className="img-section">
-                <img src={blob} className="blob"></img>
+                <img src={blob} alt='blob'  className="blob"></img>
             </div>
         </section>
     )
