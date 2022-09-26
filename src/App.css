@@ -43,10 +43,10 @@ body, html{
 
 
 
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 896px) {
 
   .start {
-    margin-left: 1800px;
+    margin-left: 1950px;
   }
   
   .skills {
