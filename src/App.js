@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar/navbar';
 import Hero from './components/Hero/Hero';
 import Carasouel from './components/Carasouel/Carasouel';
-
+import About from './components/About/About';
 import './App.css';
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
         <Carasouel></Carasouel>
       </div>
       <h2>ABOUT ME</h2>
+      <About></About>
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.about {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #6176dd;
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 85%);
+    overflow: visible;
+    position: relative;
+}
+
+.myFace {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.myFace1 {
+    border-radius: 60%;
+    height: 250px;
+    width: 230px;
+    border: 3px solid white;
+    position: relative;
+    top: -40px;
+}
+
+.aboutMeText {
+    width: 30%;
+    position: absolute;
+    right: 250px;
+    top: 1100px;
+}
