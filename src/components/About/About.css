@@ -33,3 +33,25 @@
     right: 250px;
     top: 1100px;
 }
+
+@media screen and (max-width: 896px) {
+
+    .about {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #6176dd;
+        clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 84%);
+        overflow: visible;
+        position: relative;
+    }
+
+    .myFace {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+  
+  }
