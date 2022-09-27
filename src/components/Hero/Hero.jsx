@@ -5,7 +5,7 @@ import blob from './blob.png'
 
 function Hero() {
     return (
-        <section className="intro">
+        <section className="intro" id='home'>
             <div className="intro-text">
                 <div>
                     <h3>HELLO I'M,</h3>
