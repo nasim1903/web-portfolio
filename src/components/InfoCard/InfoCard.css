@@ -11,6 +11,10 @@
     padding: 0px 10px;
 }
 
+.infoCard p {
+    font-weight: 700;
+}
+
 @media screen and (max-width: 896px) {
 
     .infoCard {

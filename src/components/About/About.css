@@ -43,7 +43,7 @@
         justify-content: center;
         align-items: center;
         background-color: #6176dd;
-        clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 84%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
         overflow: visible;
         position: relative;
     }
