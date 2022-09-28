@@ -19,9 +19,9 @@ function Carasouel() {
             <div className='start' >
                 <Cards images={JS} alt={'JS icon'} title={'Javascript'} text={'Proficient experience in'}></Cards>
             </div>
-            <Cards images={Reactlogo} alt={'React icon'} title={'React'} text={'Creating Web Apps in'}></Cards>
-            <Cards images={nodeIcon} alt={'Node JS icon'} title={'NodeJS'} text={'Practical experience creating Back Ends using'}></Cards>
-            <Cards images={expressIcon} alt={'Express JS icon'} title={'ExpressJS'} text={'Created servers and REST APIs for Back Ends using'}></Cards>
+            <Cards images={Reactlogo} alt={'React icon'} title={'React'} text={'Creating Web Applications such as this site using'}></Cards>
+            <Cards images={nodeIcon} alt={'Node JS icon'} title={'NodeJS'} text={'Practical experience creating Back End apps using'}></Cards>
+            <Cards images={expressIcon} alt={'Express JS icon'} title={'ExpressJS'} text={'Created servers and REST APIs for Back End apps using'}></Cards>
             <Cards images={mongo} alt={'MongoDB icon'} title={'MongoDB'} text={'Experienced in creating NoSQL databases using'}></Cards>
             <Cards images={sqlIcon} alt={'Postgres icon'} title={'PostgresSQL'} text={'On top of NoSQL databases i have used SQL databases such as'}></Cards>
             <Cards images={gitIcon} alt={'Git Icon'} title={'Git'} text={'Mangaged projects such as this portfolio site using'}></Cards>

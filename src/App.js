@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Navbar from './components/Navbar/navbar';
 import Hero from './components/Hero/Hero';
 import Carasouel from './components/Carasouel/Carasouel';
