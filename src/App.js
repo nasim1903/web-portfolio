@@ -5,16 +5,17 @@ import About from './components/About/About';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <Hero></Hero>
+      <Navbar/>
+      <Hero/>
       <h2>SKILLS</h2>
       <div className='skills' >
-        <Carasouel></Carasouel>
+        <Carasouel/>
       </div>
       <h2>ABOUT ME</h2>
-      <About></About>
+      <About/>
     </div>
   );
 }

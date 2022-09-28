@@ -43,11 +43,73 @@ body, html{
 
 
 
-
-@media screen and (max-width: 896px) {
+/* IPHONE SE */
+@media screen and (min-width: 414px) {
 
   .start {
-    margin-left: 1950px;
+    margin-left: 1900px;
+  }
+  
+  .skills {
+    margin-top: -15px;
+  }
+
+}
+
+/* IPHONE */
+@media screen and (min-width: 360px) {
+
+  .start {
+    margin-left: 1900px;
+  }
+  
+  .skills {
+    margin-top: -15px;
+  }
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1000px) {
+
+  .start {
+    margin-left: 1650px;
+  }
+  
+  .skills {
+    margin-top: -15px;
+  }
+
+}
+
+/* TABLETS */
+@media screen and (min-width: 820px) {
+
+  .start {
+    margin-left: 1450px;
+  }
+  
+  .skills {
+    margin-top: -15px;
+  }
+
+}
+@media screen and (min-width: 100px) {
+
+  .start {
+    margin-left: 1700px;
+  }
+  
+  .skills {
+    margin-top: -15px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .start {
+    margin-left: 1000px;
   }
   
   .skills {

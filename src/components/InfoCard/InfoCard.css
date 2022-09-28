@@ -15,7 +15,7 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (min-width: 414px) {
 
     .infoCard {
         width: 300px;
@@ -27,3 +27,59 @@
     }
   
   }
+
+
+@media screen and (min-width: 360px) {
+
+    .infoCard {
+        width: 300px;
+        position: relative;
+        top: 250px;
+        left: 10%;
+        height: 280px;
+        padding: 10px 10px;
+    }
+  
+  }
+
+  @media screen and (min-width: 820px) {
+
+    .infoCard {
+        width: 500px;
+        position: relative;
+        top: 250px;
+        left: -65%;
+        height: 250px;
+        padding: 10px 10px;
+    }
+  
+  }
+
+  @media screen and (min-width: 100px) {
+
+    .infoCard {
+        width: 400px;
+        position: relative;
+        top: 250px;
+        left: -35%;
+        height: 250px;
+        padding: 10px 10px;
+    }
+  
+  }
+
+  @media screen and (min-width: 1200px) {
+
+    .infoCard {
+        width: 500px;
+        position: relative;
+        top: 30px;
+        left: -140px;
+        height: 180px;
+        font-size: 15px;
+    }
+  
+  }
+
+  
+  
